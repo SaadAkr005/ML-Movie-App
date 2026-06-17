@@ -24,7 +24,7 @@ The application focuses on delivering a fast, responsive, and intuitive user exp
 ## Installation
 
 ```bash
-git clone 
+git clone https://github.com/SaadAkr005/ML-Movie-App
 cd ml-movie-app
 npm install
 npm run dev
