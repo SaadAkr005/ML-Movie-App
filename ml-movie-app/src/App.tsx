@@ -1,8 +1,12 @@
-import Header from "./components/Header.tsx"
+import Header from "./components/Header"
+import MovieCards from "./components/MovieCards"
 
 function App() {
   return(
-    <Header/>
+    <div className="min-h-screen bg-gray-900">
+      <Header/ >
+      <MovieCards/ >
+    </div>
   )
 }
 
