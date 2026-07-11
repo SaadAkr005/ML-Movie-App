@@ -1,13 +1,18 @@
 function Header() {
     return(
         <header>
-            <div className="flex flex-col items-center justify-center">
-                <h1 className="py-4 px-4 text-5xl font-bold text-red-500">
+            <div className="grid grid-cols-[3fr_1fr_1fr] border-y-4 items-center">
+                <h1 className="text-5xl font-bold text-red-500 p-4 pb-6">
                     ML Movie App
                 </h1>
-                <p className="py-4 px-4 text-white">
-                    This is intended to be a full stack application using React, Typescript, Tailwind, FastAPI, SQL, Python. I will use it as a way to become comfortable and familiar with all stages of developing a machine learning project. Including training, development and integration into a useful application. 
-                </p>
+                <nav className="flex gap-[2rem] justify-end text-white">
+                    <a href="">Home</a>
+                    <a href="">My List</a>
+                    <a href="">About</a>
+                </nav>
+                <div className="pl-[4rem]">
+                    <input type="search" placeholder="Search..." className="p-[0.5rem] bg-zinc-800 text-white placeholder:text-white"></input>
+                </div>
             </div>
         </header>
     )

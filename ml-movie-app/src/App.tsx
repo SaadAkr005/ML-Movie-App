@@ -3,7 +3,7 @@ import MovieCards from "./components/MovieCards"
 
 function App() {
   return(
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 pt-4">
       <Header/ >
       <MovieCards/ >
     </div>
